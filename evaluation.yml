@@ -28,11 +28,7 @@ transformations:
     command: checkout
     parameters:
       repositoryUri: https://git.rwth-aachen.de/alex.sabau/eam-cd-evaluation
-      branch: master
-      credentials:
-        type: plain
-        username: asab-se
-        password: c66132e56c61cf8c8c2d91e5
+      branch: release
 
   - name: checkoutConfigData
     service: git-service
@@ -40,10 +36,6 @@ transformations:
     parameters:
       repositoryUri: https://git.rwth-aachen.de/alex.sabau/eam-cd-evaluation
       branch: config
-      credentials:
-        type: plain
-        username: asab-se
-        password: c66132e56c61cf8c8c2d91e5
 
   - name: checkoutProjectModel
     service: git-service
@@ -51,10 +43,6 @@ transformations:
     parameters:
       repositoryUri: https://git.rwth-aachen.de/alex.sabau/eam-cd-evaluation
       branch: develop
-      credentials:
-        type: plain
-        username: asab-se
-        password: c66132e56c61cf8c8c2d91e5
 
   - name: commitAndPush
     service: git-service
