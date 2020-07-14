@@ -1,0 +1,29 @@
+responsibilities:
+  - userMail: wild@swc.rwth-aachen.de
+    userRoles:
+      - project: Evaluation
+        role: solution architect
+  - userMail: foegen@swc.rwth-aachen.de
+    userRoles:
+      - project: Evaluation
+        role: enterprise architect
+  - userMail: aydin@swc.rwth-aachen.de
+    userRoles:
+      - project: Evaluation
+        role: solution architect
+  - userMail: plewnia@swc.rwth-aachen.de
+    userRoles:
+      - project: Evaluation
+        role: enterprise architect
+  - userMail: steffens@swc.rwth-aachen.de
+    userRoles:
+      - project: Evaluation
+        role: solution architect
+  - userMail: alexander@swc.rwth-aachen.de
+    userRoles:
+      - project: Evaluation
+        role: enterprise architect
+  - userMail: sabau@swc.rwth-aachen.de
+    userRoles:
+      - project: Evaluation
+        role: manager
