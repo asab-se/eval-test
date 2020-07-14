@@ -1,9 +1,0 @@
-receivers:
-  - project: Evaluation
-    receiveMail:
-      - manager
-      - solution architect
-      - enterprise architect
-    approveReport:
-      - solution architect
-      - enterprise architect
